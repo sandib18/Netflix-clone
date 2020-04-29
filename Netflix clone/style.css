@@ -39,6 +39,7 @@ nav .signin {
     font-weight: 600;
     border-radius: 3px;
     font-size: 17px;
+    cursor: pointer;
 
 }
 
@@ -58,4 +59,123 @@ nav .signin {
 .pitch_subtitle {
     font-size: large;
     margin: 0;
+}
+
+.btn {
+    color: #ffffff;
+    border: none;
+    background-color: red;
+    line-height: normal;
+    padding: 6px 5px;
+    font-weight: 500;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: .5em .5em .5em 0;   
+}
+
+.nav .signin:hover, .btn:hover {
+    background: lightcoral;
+}
+
+#features > nav {
+    padding-top: 35px;
+    background-color: #141414;
+    border-bottom: 2px solid #3d3d3d;
+}
+
+#features > nav a {
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    color: #777777;
+}
+
+#feature > nav a:hover {
+    color: white;
+}
+
+#feature > nav a img {
+    height: 49px;
+    margin: auto;
+}
+
+#feature > nav a h2 {
+    margin: 10px 0 0;
+    font-size: 1em;
+}
+
+.columns {
+    display: flex;
+   
+}
+
+.columns.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.column {
+    display: inline-block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.column.is-25 {
+    flex: none;
+    width :25%;
+}
+
+.centre {
+    margin: 0 auto;
+}
+
+.size-80 {
+    width: 80%;
+}
+
+#features > nav a.is-selected {
+    border-bottom: 5px solid #e50914;
+    color: white;
+}
+
+#features > article >section {
+    display: none;
+    padding: 40px 0;
+}
+
+#features > article > section.is-selected {
+    display: block;
+}
+
+footer a{
+    color: #999;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer >p {
+    margin: 0 0 30px;
+}
+
+footer >ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer >ul > li {
+    list-style: none;
+    margin: 0 0 16px;
+    padding-right: 12px;
+    min-width: 100px;
+    font-size: 13px;
+}
+
+footer {
+    padding-top: 20px;
+    color: #999;
+    max-width: 1000px;
 }
