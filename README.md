@@ -1,3 +1,3 @@
-# Side-projects
+# Netflix clone
 
-This repository consists of all the side projects i've completed as i learn web development from scratch.
+This repository consists HTML and CSS file of Front-end design of Netflix website 
